@@ -8,7 +8,7 @@ A small utility script to batch download images from a list of urls.
 
 ## 🛠️ Installation
 1. Download the `download.py` script
-<br />
+
 You might be getting an error like this:
 ```
 urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)
