@@ -10,7 +10,9 @@ A small utility script to batch download images from a list of urls.
 1. Download the `download.py` script
 <br />
 You might be getting an error like this:
-```urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)```
+```
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)
+```
 To resolve this run the `Install Certificates.command` on macOS located in /Applications/Python 3.X/
 
 ## 🚀 Usage
