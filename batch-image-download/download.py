@@ -10,7 +10,7 @@ argparser = ArgumentParser(prog='Batch image downloader', description='A small u
 argparser.add_argument('-u', '--urls', help='Path to the text (txt) file containing the image urls. Default is urls.txt in the current dir.', default='./urls.txt', type=str)
 argparser.add_argument('-i', '--images', help='Path to directory where to download the images into. Will create the dir if it does not exist. Default will create a images directory in the current dir.', default='./images', type=str)
 argparser.add_argument('-c', '--clear', help='When this flag is set the script will clear the contents of the images directory.', action='store_true')
-argparser.add_argument('-t', '--timeout', help="Timeout between download requests in milliseconds. Default is 0.", default=250, type=int)
+argparser.add_argument('-t', '--timeout', help="Timeout between download requests in milliseconds. Default is 250.", default=250, type=int)
 args = argparser.parse_args()
 
 CLEAR_OUTPUT_DIR = args.clear
